@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import 'https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css';
+@import '../node_modules/ng-busy/src/style/busy.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../node_modules/ngx-toastr/toastr.css';
+
+html, body{
+    background-image: url('assets/img/greyzz.png');
+}
+
+.margin-top-10{
+    margin-top:10px;
+}
+
+.margin-top-15{
+    margin-top:15px;
+}
+
+.margin-top-25{
+    margin-top:25px;
+}
+
+.margin-bottom-25{
+    margin-bottom:25px;
+}
+
+.padding-10{
+    padding:10px;
+}
+.padding-15{
+    padding:15px;
+}
+.padding-25{
+    padding:25px;
+}
+
+.border-bottom{
+    border-bottom: solid #eee;
+}
+
+.ccloader-blue{
+    background-color: rgb(111, 194, 193);
+}
+
+.text-light-grey{
+    color:#bbb;
+}

@@ -67,19 +67,12 @@ secrets.yml
 .gradletasknamecache
 .sts4-cache
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-# Only exists if Bazel was run
-/bazel-out
-
 # dependencies
-/node_modules
+/angular-client/node_modules
 
 # profiling files
-chrome-profiler-events.json
-speed-measure-plugin.json
+/angular-client/chrome-profiler-events.json
+/angular-client/speed-measure-plugin.json
 
 # IDEs and editors
 /.idea
@@ -91,23 +84,23 @@ speed-measure-plugin.json
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+/angular-client/.vscode/*
+/angular-client/!.vscode/settings.json
+/angular-client/!.vscode/tasks.json
+/angular-client/!.vscode/launch.json
+/angular-client/!.vscode/extensions.json
+/angular-client/.history/*
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
+/angular-client/.sass-cache
+/angular-client/connect.lock
+/angular-client/coverage
 /libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
+/angular-client/npm-debug.log
+/angular-client/yarn-error.log
+/angular-client/testem.log
+/angular-client/typings
 
 # System Files
-.DS_Store
-Thumbs.db
+/angular-client/.DS_Store
+/angular-client/Thumbs.db
