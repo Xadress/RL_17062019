@@ -1,0 +1,12 @@
+2019-06-16 22:59:16.729  INFO 1432 --- [main] ccloader.web.Application                 : Starting Application on MSI with PID 1432 (D:\progetti\ccloader\ccloader.web\target\classes started by Raffaele in D:\progetti\ccloader\ccloader.web)
+2019-06-16 22:59:16.732 DEBUG 1432 --- [main] ccloader.web.Application                 : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-06-16 22:59:16.736  INFO 1432 --- [main] ccloader.web.Application                 : No active profile set, falling back to default profiles: default
+2019-06-16 22:59:17.885  INFO 1432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-16 22:59:17.905  INFO 1432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-16 22:59:17.906  INFO 1432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-16 22:59:17.992  INFO 1432 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-16 22:59:17.992  INFO 1432 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1222 ms
+2019-06-16 22:59:18.356  INFO 1432 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-16 22:59:18.468  INFO 1432 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-06-16 22:59:18.570  INFO 1432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-16 22:59:18.575  INFO 1432 --- [main] ccloader.web.Application                 : Started Application in 2.178 seconds (JVM running for 2.879)
