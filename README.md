@@ -1,3 +1,4 @@
+
 # CCLoader
 
 A small test project made with Angular 8, SpringBoot 2.1.5 and Java 8.
@@ -34,20 +35,26 @@ To have our WAR file deployed and running in Tomcat, we need to complete the fol
 The first page you'll see contains the list of our inserted cards (the first time you enter it will be empty).
 
 To start inserting some cards, click on 'Add new cards', this will bring up a page in which you will have two options:
-	1) Insert cards manually: 
-		By clicking on the green plus button you will add a new row with empty fields, and you can keep adding as you want until finished.
+	
+
+ - Insert cards manually: 
+	By clicking on the green plus button you will add a new row with empty fields, and you can keep adding as you want until finished.
 		After filling all the necessary information just click on 'Confirm' in order to save all the cards.
-	2) Select a CSV file from your PC:
-		Next to the green plus button, there's an input field to load a csv file from your local PC. In order for this method to work
-		the CSV file must contain cards data ordered and formatted as follows:
-			"HSBC Canada","5664896316896547","11/2017"
-			"Bank of America","4585569856856923","07/2022"
-			"Royal Bank of Canada","3562325632365623","04/2020"
-		Each row rappresents a card with BankName, CardNumber and ExpiryDate.
-		REMEMBER: 
-			If you insert multiple cards having the same card number the last in the list will overwrite the others.
-			Card numbers should be 16 digits long.
-			Even if the date field shows the day, it won't be considered.
+	
+ - Select a CSV file from your PC:
+		Next to the green plus button, there's an input field to load a csv file from your local PC. 
+		In order for this method to work properly, the CSV file must contain cards data ordered and formatted as follows:
+```	
+		"HSBC Canada","5664896316896547","11/2017"
+		"Bank of America","4585569856856923","07/2022"
+		"Royal Bank of Canada","3562325632365623","04/2020"
+```
+Where each row rappresents a card with BankName, CardNumber and ExpiryDate.
+#### REMEMBER: 
+ - If you insert multiple cards having the same card number the last in
+   the list will overwrite the others. 	
+ - Card numbers should be 16 digits long. 	
+ - Even if the date field shows the day, it won't be considered.
 
 ## Development
 
